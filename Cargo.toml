@@ -12,3 +12,9 @@ tokio-util = {version = "0.7.8", features = ["compat"]}
 tiberius = "0.12.2"
 tokio-postgres = "0.7.8"
 anyhow = "1.0.71"
+clap = {version="4.3.2", features = ["derive"]}
+serde = {version="1.0.164", features = ["derive"]}
+confy = "0.5.1"
+log = "0.4.18"
+log4rs = "1.2.0"
+chrono = "0.4.26"
